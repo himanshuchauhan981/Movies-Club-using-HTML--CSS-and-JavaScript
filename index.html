@@ -9,29 +9,33 @@
    <div class="container">
       <div class="header">
          <p id="heading">Movie Club</p>
-         <p id="tagline">Movies that you like</p>
+         <p id="tagline">movies that you like</p>
          <div class="search-movies">
-            <input type="text" placeholder="Search Movies">
-            <button type="submit">Search</button>
+            <input type="text" placeholder="Search Movies" onkeypress="searchMovies()" id="movie">
          </div>
       </div>
       <div class="body">
+         <div class="add-movies">
+            <input type="text" placeholder="Add new Movies..." id="movieName">
+            <button type="button" onclick="addNewMovie()">Add Movie</button>
+         </div>
          <div class="movie-list">
             <h1>Movies to Watch</h1>
-            <ul>
-               <li>
+            <ul id="ulist">
+               <li id="list">
                   <div class="movie-list-style">
                      <span>Jab Tak Hai Jaan</span>
-                     <button type="button">Delete</button>
+                     <button type="button" class="movie-delete">Delete</button>
                   </div>
                   <div class="movie-list-style">
                      <span>Om Shanti Om</span>
-                     <button type="button">Delete</button>
+                     <button type="button" class="movie-delete">Delete</button>
                   </div>
                </li>
             </ul>
          </div>
       </div>
    </div>
+   <script src="javascript.js"></script>
 </body>
 </html>
