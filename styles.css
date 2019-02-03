@@ -1,0 +1,82 @@
+.container{
+   margin: 0 auto;
+   width:550px;
+   box-shadow: 1px 1px 1px 1px black;
+}
+.header{
+   text-align: center;
+   font-family: 'Autour One';
+   background-color: #D3D3D3;
+}
+.header #heading{
+   padding:10px 0px 0px 0px;
+   font-size:50px;
+   margin-bottom: 0;
+}
+.header #tagline{
+   font-size: 20px;
+   margin-top:0;
+}
+.search-movies input{
+   border:none;
+   font-size: 20px;
+   padding: 6px;
+   margin-bottom: 20px;
+   border-radius: 4px;
+}
+.search-movies input:focus{
+   border: 2px solid green;
+   background-color:#ECEAE7;
+}
+.search-movies button{
+   border:none;
+   display:inline-block;
+   font-size:20px;
+   padding:5px;
+   margin-left:5px;
+   text-align: center;
+   cursor: pointer;
+   background-color:#4CAF50;
+   color:white;
+}
+.search-movies button:hover{
+   background-color: #58C95C;
+}
+.body{
+   background-color: #F9F9F9;
+}
+.movie-list h1{
+   margin-top: 0;
+   text-align: center;
+   font-family: 'Cagliostro';
+}
+li{
+   list-style-type: none;
+   background-color: red;
+   padding: 10px 20px;
+}
+ul{
+   padding-left: 0;
+}
+.movie-list-style{
+   padding: 5px 10px;
+   font-family: 'Autour One';
+   font-size: 23px;
+   margin-bottom:10px;
+   border-left:4px solid #979795;
+}
+.movie-list-style:hover{
+   border-left: 4px solid #9361bf;
+}
+.movie-list-style button{
+   background-color: #9361bf;
+   border: none;
+   color: white;
+   float: right;
+   font-size: 14px;
+   border-radius: 4px;
+   text-align: center;
+   display: inline-block;
+   cursor: pointer;
+   padding: 5px 5px;
+}
