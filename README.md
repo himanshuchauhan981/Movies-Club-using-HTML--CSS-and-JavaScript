@@ -4,4 +4,16 @@ This project made using HTML, CSS and JavaScript. User can add new movies that h
 
 [Click Here](https://registrationformusingjavascript.000webhostapp.com/Movie%20Club/index.html) to view this project
 
-##Screenshots
+## Screenshots
+
+# Movies Club
+![main.png](https://registrationformusingjavascript.000webhostapp.com/Movie%20Club/main.png)
+
+# Add New Movie
+![addNewMovie.png](https://registrationformusingjavascript.000webhostapp.com/Movie%20Club/addNewMovie.png)
+
+# Search movies
+![searchMovies.png](https://registrationformusingjavascript.000webhostapp.com/Movie%20Club/searchMovies.png)
+
+# Delete movies
+![deleteMovie.png](https://registrationformusingjavascript.000webhostapp.com/Movie%20Club/deleteMovie.png)
