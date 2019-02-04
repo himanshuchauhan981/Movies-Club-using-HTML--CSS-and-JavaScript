@@ -42,4 +42,18 @@ list.addEventListener('click', function(e){
 })
 
 function searchMovies(){
+   var search  = document.getElementById('filterMovie');
+   var filter = search.value.toUpperCase();
+   li = document.getElementById('list');
+   div = li.getElementsByTagName('div');
+   for(var i=0;i<div.length;i++){
+      searchResult = div[i].getElementsByTagName('span')[0];
+      values = searchResult.textContent || searchResult.innerText;
+      if(values.toUpperCase().indexOf(filter) > -1){
+         div[i].style.display="";
+      }
+      else{
+         div[i].style.display = "none";
+      }
+   }
 }
