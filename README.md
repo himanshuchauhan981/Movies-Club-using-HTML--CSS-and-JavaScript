@@ -7,13 +7,13 @@ This project made using HTML, CSS and JavaScript. User can add new movies that h
 ## Screenshots
 
 # Movies Club
-![main.png](https://registrationformusingjavascript.000webhostapp.com/Movie%20Club/main.png)
+![Movie Clubs.png](https://live-websites.000webhostapp.com/Movie%20Clubs/Screenshots/Movie%20Clubs.png)
 
 # Add New Movie
-![addNewMovie.png](https://registrationformusingjavascript.000webhostapp.com/Movie%20Club/addNewMovie.png)
+![Add Movie.png](https://live-websites.000webhostapp.com/Movie%20Clubs/Screenshots/Add%20Movie.png)
 
 # Search movies
-![searchMovies.png](https://registrationformusingjavascript.000webhostapp.com/Movie%20Club/searchMovies.png)
+![Search Movies.png](https://live-websites.000webhostapp.com/Movie%20Clubs/Screenshots/Search%20Movies.png)
 
 # Delete movies
-![deleteMovie.png](https://registrationformusingjavascript.000webhostapp.com/Movie%20Club/deleteMovie.png)
+![Delete Movie.png](https://live-websites.000webhostapp.com/Movie%20Clubs/Screenshots/Delete%20Movie.png)
