@@ -1,8 +1,9 @@
 <html>
 <head>
    <title>Movie Club</title>
-   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Autour One'>
-   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cagliostro'>
+   <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Autour One'>
+   <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Cagliostro'>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Staatliches">
    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,18 +25,40 @@
             <ul id="ulist">
                <li id="list">
                   <div class="movie-list-style">
+                     <input type="checkbox" class="checkbox-style">
                      <span>Jab Tak Hai Jaan</span>
                      <button type="button" class="movie-delete">Delete</button>
                   </div>
                   <div class="movie-list-style">
+                     <input type="checkbox" class="checkbox-style">
                      <span>Om Shanti Om</span>
+                     <button type="button" class="movie-delete">Delete</button>
+                  </div>
+                  <div class="movie-list-style">
+                     <input type="checkbox" class="checkbox-style">
+                     <span>Dilwale Dulhania Le Jayenge</span>
+                     <button type="button" class="movie-delete">Delete</button>
+                  </div>
+                  <div class="movie-list-style">
+                     <input type="checkbox" class="checkbox-style">
+                     <span>Hum Aapke Hai Koun</span>
                      <button type="button" class="movie-delete">Delete</button>
                   </div>
                </li>
             </ul>
          </div>
       </div>
+      <div class="footer">
+         <button type="button" class="hide-movie" onclick="hideMovies()" id="btn-event">Hide Movies</button>
+         <button type="button" class="show-movie" onclick="showMovies()">Show Movies</button>
+      </div>
    </div>
+
+   <div id="myModal" class="modal">
+      <div class="modal-content">
+         <span class="close" onclick="closeModalMessage()">&times;</span>
+         <h1 class="warning-message">No Movie Selected</h1>
+      </div>
    <script src="javascript.js"></script>
 </body>
 </html>
