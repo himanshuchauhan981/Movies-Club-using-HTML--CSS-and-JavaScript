@@ -9,9 +9,6 @@ This project made using HTML, CSS and JavaScript. User can add new movies that h
 # Movies Club
 ![Movie Club.png](https://live-websites.000webhostapp.com/Movie%20Clubs/Screenshots/Movie%20Club.png)
 
-# Add New Movie
-![Add Movie.png](https://live-websites.000webhostapp.com/Movie%20Clubs/Screenshots/Add%20Movie.png)
-
 # Search movies
 ![Search Movie.png](https://live-websites.000webhostapp.com/Movie%20Clubs/Screenshots/Search%20Movie.png)
 
