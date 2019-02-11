@@ -126,7 +126,7 @@ ul{
    margin-left:15px;
 }
 
-.hide-movie, .show-movie{
+.hide-movie, .show-movie, .select-all-movies{
    padding:10px 20px;
    border:none;
    margin:0 auto;
@@ -198,10 +198,12 @@ input[type="checkbox"]{
    border-radius:10px;
    outline:none;
 }
+
 input:checked{
    background-color: #37F025;
    outline:none;
 }
+
 input[type="checkbox"]:hover{
    width:20px;
    height:20px;
