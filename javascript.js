@@ -81,6 +81,15 @@ function showMovies(){
    }
 }
 
+function selectAllMovies(){
+   var ifCheckBox = document.getElementsByClassName('checkbox-style');
+   for(var i=0;i<ifCheckBox.length;i++){
+      if(!ifCheckBox[i].checked){
+         ifCheckBox[i].checked = true;
+      }
+   }
+}
+
 function displayModalMessage(){
    var modal = document.getElementById('myModal');
    modal.style.display="block";
